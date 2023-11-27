@@ -8,7 +8,7 @@ How to install?
 How to Run: 
 1) Download the datasets : 
 //insert data sets here
-MBTI_cleaned (used for 3730TorchClassifier.ipynb and smaller_ds_ml.ipynb): 
+MBTI_cleaned (used for 3730TorchClassifier.ipynb and smaller_ds_ml.ipynb): /n
 MBTI500 ( used in Data500_prediction.ipynb): 
 3) Following the instructions in the Jupyter Notebook, link the datasets from your local machine to the code and run!
 
