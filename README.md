@@ -1,6 +1,6 @@
 # MBTIPredictor
 ### Description: 
-Machine learning prediction of the Myers Brigg personality test.
+Machine learning prediction of the Myers-Brigg personality test.
 
 How to install?
 1) Using 'git clone' feature, clone the project to your local system (like VSCode or Google Colab). 
@@ -9,7 +9,7 @@ How to Run:
 1) Download the datasets : 
 insert data sets here
 
-2) Following the instructions in the Jupyter Notebook, link the datasets form your local machine to the code and run!
+2) Following the instructions in the Jupyter Notebook, link the datasets from your local machine to the code and run!
 
 
 Our group used the following packages:
