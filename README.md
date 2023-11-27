@@ -8,17 +8,25 @@ How to install?
 How to Run: 
 1) Download the datasets : 
 //insert data sets here
-MBTI_cleaned (used for 3730TorchClassifier.ipynb and smaller_ds_ml.ipynb): 
+MBTI_cleaned (used for 3730TorchClassifier.ipynb and smaller_ds_ml.ipynb):
+
 MBTI500 ( used in Data500_prediction.ipynb): 
+
 3) Following the instructions in the Jupyter Notebook, link the datasets from your local machine to the code and run!
 
 Folder Breakdown: 
 wordcloud - creates a word cloud for all the words
+
 wordcloud_removed - creates a word cloud with certain common words removed due to redundancy(removed words: think, like, one, people, know)
+
 topTen_bar - top ten words in every MBTI type
+
 datasets_types - cleaned mbti_clean.csv split into the corresponding MBTI types
+
 datasets_letters - cleaned mbti_clean.csv split into the corresponding MBTI dimensions (E, I, N, S, F, T, P, J)
+
 big_datasets_types: cleaned MBTI500.csv split into the corresponding MBTI types
+
 big_datasets_letters: MBTI500.csv split into the corresponding MBTI dimensions (E, I, N, S, F, T, P, J)
 
 
