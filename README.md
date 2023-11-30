@@ -35,31 +35,31 @@ big_datasets_letters: MBTI500.csv split into the corresponding MBTI dimensions (
 
 Our group used the following packages:
 1. For Data Cleaning and Analyzing
-    pandas as pd
-    re
-    nltk: to install stopwords and lemmatizing functionality
-    nltk.corpus import stopwords
-    nltk.stem import WordNetLemmatizer
-    numpy as np
-2. For feature extraction
-    sklearn.pipeline import Pipeline
-    sklearn.feature_extraction.text import CountVectorizer, TfidfTransformer
-3. For Machine Learning Algorithms
-    sklearn.model_selection import train_test_split, GridSearchCV
-    sklearn.naive_bayes import MultinomialNB
-    sklearn import metrics
-    sklearn.linear_model import LogisticRegression
-    sklearn.metrics import accuracy_score, classification_report, confusion_matrix, r2_score, mean_squared_error
-    torch
-    math
-    torchtext.data.utils import get_tokenizer
-    torchtext.vocab import build_vocab_from_iterator
-    torch.utils.data import DataLoader
-    torch import nn
-    time
-    from torch.utils.data.dataset import random_split
-    from torchtext.data.functional import to_map_style_dataset
-4. For Data Visualization
-    wordcloud
-    matplotlib.pyplot as plt
-    seaborn as sns
+    <p>pandas as pd</p>
+    <p>re</p>
+    <p>nltk: to install stopwords and lemmatizing functionality</p>
+    <p>nltk.corpus import stopwords</p>
+    <p>nltk.stem import WordNetLemmatizer</p>
+    <p>numpy as np</p>
+3. For feature extraction
+    <p>sklearn.pipeline import Pipeline</p>
+    <p>sklearn.feature_extraction.text import CountVectorizer, TfidfTransformer</p>
+4. For Machine Learning Algorithms</p>
+    <p>sklearn.model_selection import train_test_split, GridSearchCV</p>
+    <p>sklearn.naive_bayes import MultinomialNB</p>
+    <p>sklearn import metrics</p>
+    <p>sklearn.linear_model import LogisticRegression</p>
+    <p>sklearn.metrics import accuracy_score, classification_report, confusion_matrix, r2_score, mean_squared_error</p>
+    <p>torch</p>
+    <p>math</p>
+    <p>torchtext.data.utils import get_tokenizer</p>
+    <p>torchtext.vocab import build_vocab_from_iterator</p>
+    <p>torch.utils.data import DataLoader</p>
+    <p>torch import nn</p>
+    <p>time</p>
+    <p>from torch.utils.data.dataset import random_split</p>
+    <p>from torchtext.data.functional import to_map_style_dataset</p>
+5. For Data Visualization
+    <p>wordcloud</p>
+    <p>matplotlib.pyplot as plt</p>
+    <p>seaborn as sns</p>
