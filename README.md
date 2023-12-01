@@ -1,39 +1,43 @@
-# MBTIPredictor
+# Machine learning Prediction with Myers-Brigg Type Indicator
+![MBTI](https://thechargerfrontline.com/wp-content/uploads/2022/11/Personality-Test-900x568.png)
 ### Description: 
-Machine learning prediction of the Myers-Brigg personality test.
 
-How to install?
-1) Using 'git clone' feature, clone the project to your local system (like VSCode or Google Colab). 
 
-How to Run: 
-1) Download the datasets :
+I. How to install?
+
+>Using 'git clone' feature, clone the project to your IDE for coding (like VSCode or Google Colab). 
+Make sure to either pip install or conda install libraries like scipy, wordcloud, nltk, seaborn and scikit-learn to run the code.
+
+II. How to Run?
+1) Download the datasets from the folder linked here: [https://lsu.box.com/s/n58ia30eouwszswydrxkn6zejdd7co6y](https://lsu.box.com/s/n58ia30eouwszswydrxkn6zejdd7co6y)
    
-MBTI_cleaned (used for 3730TorchClassifier.ipynb and smaller_ds_ml.ipynb): https://lsu.box.com/s/7rt3ita4xmbx0l6ywoc0q022a32k2s86
+>mbti_cleaned.csv (used for 3730TorchClassifier.ipynb and smaller_ds_ml.ipynb): [mbti_cleaned.csv](https://lsu.box.com/s/7rt3ita4xmbx0l6ywoc0q022a32k2s86)
 
-MBTI500 ( used in Data500_prediction.ipynb): https://lsu.box.com/s/4d27a5bh8s9jsuz5y5hvjeled9l6lise
+>MBTI500.csv ( used in Data500_prediction.ipynb): [MBTI500.csv](https://lsu.box.com/s/4d27a5bh8s9jsuz5y5hvjeled9l6lise)
 
-2) Following the instructions in the Jupyter Notebook, link the datasets from your local machine to the code and run!
+2) In the Jupyter Notebook, link the datasets from your local machine. Make sure to check whether the dataset that is not attached to the code folder is mentioned with the correct path from your local computer. The additional datasets, which are cleaned are given in the folder breakdowns part below.
 
-File Breakdown (.docx):
-wordcloud - creates a word cloud for all the words
+3) The last to run is the prediction where you will run the function preprocessed_text, then put the sentence you want to run into the variable trial_sentence and run all the cells below which will give the letters that predict the output.
+-----------------------------------------------------------------------------------------------------------------------------------------
+>File Breakdown (images.docx):
+>>wordcloud - creates a word cloud for all the words
 
-wordcloud_removed - creates a word cloud with certain common words removed due to redundancy(removed words: think, like, one, people, know)
+>>wordcloud_removed - creates a word cloud with certain common words removed due to redundancy(removed words: think, like, one, people, know)
 
-topTen_bar - top ten words in every MBTI type
+>>topTen_bar - top ten words in every MBTI type
 
-Folder Breakdown:
-datasets_types - cleaned mbti_clean.csv split into the corresponding MBTI types
+>Folder Breakdown:
+>>datasets_types - cleaned mbti_clean.csv split into the corresponding MBTI types
 
-datasets_letters - cleaned mbti_clean.csv split into the corresponding MBTI dimensions (E, I, N, S, F, T, P, J)
+>>datasets_letters - cleaned mbti_clean.csv split into the corresponding MBTI dimensions (E, I, N, S, F, T, P, J)
 
-big_datasets_types: cleaned MBTI500.csv split into the corresponding MBTI types
+>>big_datasets_types: cleaned MBTI500.csv split into the corresponding MBTI types
 
-big_datasets_letters: MBTI500.csv split into the corresponding MBTI dimensions (E, I, N, S, F, T, P, J)
+>>big_datasets_letters: MBTI500.csv split into the corresponding MBTI dimensions (E, I, N, S, F, T, P, J)
 
+-----------------------------------------------------------------------------------------------------------------------------------------
 
-
-
-Our group used the following packages:
+Packages Used:
 1. For Data Cleaning and Analyzing
     <p>pandas as pd</p>
     <p>re</p>
