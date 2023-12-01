@@ -11,7 +11,7 @@ Make sure to either pip install or conda install libraries like scipy, wordcloud
 II. How to Run?
 1) Download the datasets from the folder linked here: [https://lsu.box.com/s/n58ia30eouwszswydrxkn6zejdd7co6y](https://lsu.box.com/s/n58ia30eouwszswydrxkn6zejdd7co6y)
    
->mbti_cleaned.csv (used for 3730TorchClassifier.ipynb and smaller_ds_ml.ipynb): [mbti_cleaned.csv](https://lsu.box.com/s/7rt3ita4xmbx0l6ywoc0q022a32k2s86)
+>mbti_cleaned.csv (used for 3730TorchClassifierBinary.ipynb and smaller_ds_ml.ipynb): [mbti_cleaned.csv](https://lsu.box.com/s/7rt3ita4xmbx0l6ywoc0q022a32k2s86)
 
 >MBTI500.csv ( used in Data500_prediction.ipynb): [MBTI500.csv](https://lsu.box.com/s/4d27a5bh8s9jsuz5y5hvjeled9l6lise)
 
